@@ -3,11 +3,33 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
+//import { RoutingDemo } from './ClassComponents/RoutingDemo.jsx';
+import { Shoppingindex } from './Shopping-spa/shopping-index.jsx';
+//import { ClassBindingComponent } from './Components/class-binding-14/classBinding.jsx';
+//import { VerifyPassword } from './Components/verify-password/VerifyDemo.jsx';
+//import { Home } from './Components/Home/home.jsx';
+// import { LoginClassComponents } from './ClassComponents/LoginComponents.jsx';
+// import { StateDemo } from './ClassComponents/setState.jsx';
+// import { ClassPropertiesDemo } from './ClassComponents/ClassProperties.jsx';
+//import { ConditionalRendering } from './ClassComponents/ConditionlRendaring.jsx';
+//import { FormikDemo } from './ClassComponents/FormikDemo.jsx';
+//import { YupDemo } from './ClassComponents/yup.jsx';
+// import { DataBindingSecondPart } from './Components/data-binding-13/data-binding-2.jsx';
+//import { StyleBinding14 } from './Components/style-binding-14/style-binding.jsx';
+//import { NetflixIndex } from './Netflix/NetflixIndex';
+//import {NasaComponent} from './Components/NasaApi/nasaApi';
+ //import {NasaCardComponent} from './Components/nasaApi-cardStyle/nasaapi';
+//import {FakestoreComponent} from './Components/fakestore/fakestore'
+//import {FakeStore} from './Components/Fakestore-Practice.jsx/fakestorepra.jsx';
+// import { StyleBinding } from './Components/style-binding/stylebinding.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Shoppingindex/>
   </React.StrictMode>
 );
 

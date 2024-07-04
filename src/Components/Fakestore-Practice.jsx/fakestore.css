@@ -1,0 +1,20 @@
+h3{
+    text-align: center;
+}
+#card{
+    /* width: 100rem; */
+    overflow: auto;
+    
+}
+tfoot button{
+    justify-content: space-between;
+}
+
+/* .card-header{
+    height:90px;
+    overflow: hidden;
+} */
+/* img{
+    width: 150px;
+    height: 150px;
+} */

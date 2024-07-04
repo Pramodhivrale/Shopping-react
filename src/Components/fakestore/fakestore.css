@@ -1,0 +1,17 @@
+/* main{
+    overflow: auto;
+    height: 500px;
+    display: flex;
+} */
+.card{
+    width: 200px;
+    
+}
+.card-header{
+    height:90px;
+    overflow: hidden;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
