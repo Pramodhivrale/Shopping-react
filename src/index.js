@@ -7,7 +7,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 //import { RoutingDemo } from './ClassComponents/RoutingDemo.jsx';
-import { Shoppingindex } from './Shopping-spa/shopping-index.jsx';
+//import { Shoppingindex } from './Shopping-spa/shopping-index.jsx';
+import { TutorialIndex } from './tutorial/tutorial-index.js';
 //import { ClassBindingComponent } from './Components/class-binding-14/classBinding.jsx';
 //import { VerifyPassword } from './Components/verify-password/VerifyDemo.jsx';
 //import { Home } from './Components/Home/home.jsx';
@@ -25,11 +26,14 @@ import { Shoppingindex } from './Shopping-spa/shopping-index.jsx';
 //import {FakestoreComponent} from './Components/fakestore/fakestore'
 //import {FakeStore} from './Components/Fakestore-Practice.jsx/fakestorepra.jsx';
 // import { StyleBinding } from './Components/style-binding/stylebinding.jsx';
-
+import { CookiesProvider } from 'react-cookie';
+import { ReducerDemo } from './reducerDemo/reducerdemo.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Shoppingindex/>
+    <CookiesProvider>
+    <ReducerDemo/>
+    </CookiesProvider>
   </React.StrictMode>
 );
 
